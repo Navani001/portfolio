@@ -1,0 +1,29 @@
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-128px * 15));
+  }
+}
+
+.slide-track {
+  animation: scroll 15s linear infinite;
+  display: flex;
+  /* width: calc(150px * 20); */
+}
+
+.slide-track:hover {
+  animation-play-state: paused;
+}
+
+.slide {
+  text-align: center;
+  transition: transform 1s;
+  font-weight: 500;
+}
+
+.slide:hover {
+  transform: scale(1.4);
+}
