@@ -20,7 +20,6 @@ import { Toaster, toast } from "sonner";
 import emailjs from "emailjs-com";
 // import { ChevronDownIcon } from '@heroicons/react/20/solid'
 // import { Field, Label, Switch } from '@headlessui/react'
-
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -32,8 +31,6 @@ export default function Contact() {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     setLoading(true);
-    console.log(import.meta.env.VITE_EMAILJS_API_KEY)
-
     await new Promise((r) => setTimeout(r, 500));
     emailjs
       .send(
