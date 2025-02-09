@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 import * as Types from "./types";
 import summarizerExtension from "./assets/summarizerExtenstion.png";
 import RecommendationImage from "./assets/Recommendation.png";
-import blogIx from './assets/blogIx.png'
+import blogIx from './assets/blogix.png'
 import Rp from './assets/Rp.png'
 
 // import comingSoonUrl from "./assets/comingSoon.png";
