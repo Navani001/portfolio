@@ -12,6 +12,8 @@ import blogIx from './assets/blogix.png'
 import Rp from './assets/Rp.png'
 import StarBackground from "./components/startBackground";
 
+
+
 // import comingSoonUrl from "./assets/comingSoon.png";
 
 // import { useRef } from "react";
@@ -74,7 +76,9 @@ function App() {
 
   return (
     <div className="">
-      <StarBackground />
+      <div className="bg-black">
+        <StarBackground/>
+      </div>
       <Navbar />
       <Hero />
       <div className="space-y-20 lg:space-y-32">

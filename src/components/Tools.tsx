@@ -8,7 +8,7 @@ import reactLogo from "../assets/logos/react.svg";
 import ReduxLogo from "../assets/logos/Redux.jpg";
 import ZustandLogo from "../assets/logos/Zustand.jpg";
 import VercelLogo from "../assets/logos/vercel.jpg";
-import nextJs from "../assets/logos/nextjs.png";
+
 
 import sqlLogo from "../assets/logos/sql.svg";
 import nodeLogo from "../assets/logos/node.svg";
@@ -38,7 +38,7 @@ const tools = [
   { name: "Redux", logo: ReduxLogo },
   { name: "Zustand", logo: ZustandLogo },
   { name: "MUi", logo: mui },
-  { name: "MUi", logo: nextJs },
+
 ];
 
 function ToolSlide({ name, logo }: { name: string; logo: string }) {
