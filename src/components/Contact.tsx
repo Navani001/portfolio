@@ -32,6 +32,7 @@ export default function Contact() {
   const handleSubmit = async (e: any) => {
     e.preventDefault();
     setLoading(true);
+    console.log(import.meta.env.EMAILJS_API_KEY)
     await new Promise((r) => setTimeout(r, 500));
     emailjs
       .send(
@@ -42,6 +43,7 @@ export default function Contact() {
           message: message,
           reply_to: email,
         },
+        
         import.meta.env.EMAILJS_API_KEY,
        
       )
