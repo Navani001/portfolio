@@ -42,7 +42,8 @@ export default function Contact() {
           message: message,
           reply_to: email,
         },
-        "4G2enukmWqkdhLJQ3",
+        import.meta.env.VITE_EMAILJS_API_KEY,
+       
       )
       .then(
         () => {
