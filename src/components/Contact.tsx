@@ -42,7 +42,7 @@ export default function Contact() {
           message: message,
           reply_to: email,
         },
-        import.meta.env.VITE_EMAILJS_API_KEY,
+        import.meta.env.EMAILJS_API_KEY,
        
       )
       .then(
