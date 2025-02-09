@@ -4,6 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  cursor: url('./assets/logos/cursor.png'), auto;
+}
 .fugaz-one-regular {
   font-family: "Fugaz One", sans-serif;
   font-weight: 400;
