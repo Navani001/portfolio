@@ -50,7 +50,7 @@ function Project({
             className="z-20 flex items-center rounded-lg bg-white p-1.5 px-4 text-sm font-semibold text-purple-900 hover:bg-gray-300"
             onClick={() => window.open(project.froentEnd, "_blank")}
           >
-            FroentEnd
+           Frontend
             <svg
               className="ml-2 size-4 fill-accent"
               focusable="false"
@@ -68,7 +68,7 @@ function Project({
             className="z-20 flex items-center rounded-lg bg-white p-1.5 px-4 text-sm font-semibold text-purple-900 hover:bg-gray-300"
             onClick={() => window.open(project.backEnd, "_blank")}
           >
-            BackEnd
+            Backend
             <svg
               className="ml-2 size-4 fill-accent"
               focusable="false"

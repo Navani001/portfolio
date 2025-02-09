@@ -12,7 +12,7 @@ const experience1: Types.Experience = {
   longDescription: [
     `• Developed a fully responsive website using Next and Hero UI, increasing user engagement by 30%`,
     "• Created a Learner portal for Reverture Project with Next.js, boosting learner Engagment",
-    "• Acquired Industry Standard Ful stack Developer Skill.Boosted by Productivit by 3X",
+    "• Acquired Industry Standard Full stack Developer Skill. Boosted my Productivity by 3x",
   ],
 };
 

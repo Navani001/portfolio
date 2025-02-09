@@ -28,6 +28,7 @@ const project1: Types.Project = {
     "Hero ui",
     "Jest",
     "cypress",
+    "Neon"
 
   ],
   description:
@@ -50,15 +51,15 @@ const project2: Types.Project = {
 
 const project3: Types.Project = {
   title: "Gen AI Summarizer Extension",
-  techStack: ["vite", "Gemini Api","JavaScript"],
+  techStack: ["Vite", "Gemini Api","JavaScript","CSS"],
   description:
-    " Created a browser extension that summarizes webpage contentwithout leaving the page. Increased user Productivity in Reading",
+    "Created a browser extension that summarizes webpage contentwithout leaving the page. Increased user Productivity in Reading",
   image: summarizerExtension,
   github: "https://github.com/Navani001/summarizeextension",
 };
 const project4: Types.Project = {
   title: "Movie Recommendation System ",
-  techStack: ["vite", "Gemini Api", "JavaScript"],
+  techStack: ["Vite", "Python", "Sklearn","Pandas","Numpy","NLTK"],
   description:
     "Built a machine learning-based movie recommendation system. Suggests movies based on user search history and inputs.Learned Vectorization  ",
   image: RecommendationImage,
