@@ -175,7 +175,7 @@ const StarBackground = () => {
         // Cleanup
         return () => {
             if (sceneRef.current) {
-                const { renderer, scene, camera, starField, animationFrameId } = sceneRef.current;
+                const { renderer, scene, starField, animationFrameId } = sceneRef.current;
                 if (animationFrameId) cancelAnimationFrame(animationFrameId);
 
                 window.removeEventListener("resize", debouncedResize);
