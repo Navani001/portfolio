@@ -3,9 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+html{
+   background-color: transparent;
+  z-index: 0.4;
+}
 body {
   cursor: url('./assets/logos/cursor.png'), auto;
+  background-color: transparent;
+  z-index: 0.4;
 }
 .fugaz-one-regular {
   font-family: "Fugaz One", sans-serif;

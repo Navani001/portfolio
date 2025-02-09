@@ -10,6 +10,7 @@ import summarizerExtension from "./assets/summarizerExtenstion.png";
 import RecommendationImage from "./assets/Recommendation.png";
 import blogIx from './assets/blogix.png'
 import Rp from './assets/Rp.png'
+import StarBackground from "./components/startBackground";
 
 // import comingSoonUrl from "./assets/comingSoon.png";
 
@@ -72,7 +73,8 @@ function App() {
   // };
 
   return (
-    <>
+    <div className="">
+      <StarBackground />
       <Navbar />
       <Hero />
       <div className="space-y-20 lg:space-y-32">
@@ -94,7 +96,7 @@ function App() {
           Built with <span className="animate-pulse">❤️</span>  in Tamil Nadu, India
         </a>
       </div>
-    </>
+    </div>
   );
 }
 

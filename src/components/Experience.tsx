@@ -38,7 +38,7 @@ function Experience() {
         {experiences.map((experience) => (
           <div
             key={experience.companyName}
-            className="border-accent mb-4 flex h-48 w-full max-w-[36rem] items-center justify-center rounded-lg border-t-4 lg:mb-0"
+            className="border-accent mb-4 flex h-48 w-full max-w-[36rem] items-center justify-center rounded-lg  lg:mb-0"
             style={{
               backgroundImage:
                 "linear-gradient(145deg, #130428 7%, #251043 34%, #38126D 57%, #261045 85%, #190634 100%)",

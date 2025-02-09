@@ -14,9 +14,7 @@
   /* width: calc(150px * 20); */
 }
 
-.slide-track:hover {
-  animation-play-state: paused;
-}
+
 
 .slide {
   text-align: center;
@@ -24,6 +22,4 @@
   font-weight: 500;
 }
 
-.slide:hover {
-  transform: scale(1.4);
-}
+
