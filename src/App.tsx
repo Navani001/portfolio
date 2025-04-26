@@ -56,6 +56,7 @@ const project3: Types.Project = {
     "Created a browser extension that summarizes webpage contentwithout leaving the page. Increased user Productivity in Reading",
   image: summarizerExtension,
   github: "https://github.com/Navani001/summarizeextension",
+  demo: "https://microsoftedge.microsoft.com/addons/detail/ai-summarizer/bfmgkngbbkfejlkpffkmohofeghmncgi",
 };
 const project4: Types.Project = {
   title: "Movie Recommendation System ",
@@ -64,7 +65,9 @@ const project4: Types.Project = {
     "Built a machine learning-based movie recommendation system. Suggests movies based on user search history and inputs.Learned Vectorization  ",
   image: RecommendationImage,
   froentEnd: "https://github.com/Navani001/recommendationsystem_froentend",
-  backEnd: "https://github.com/Navani001/Navani001-recommendation_system_backend2"
+  backEnd: "https://github.com/Navani001/Navani001-recommendation_system_backend2",
+
+  demo: "https://moviehkrecommendation.vercel.app/",
 };
 const projects: Types.Project[] = [project1, project2, project3, project4];
 
